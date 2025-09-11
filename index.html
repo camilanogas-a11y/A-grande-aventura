@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <title>A grande aventura</title>
 </head>
-<body>
-   <main>
-    <div>
-     <P>Em um dia comum, eu estava brincando com  meu cachorro no quintal, estava tudo normal até ele encontrar um mapa. Nesse mapa tinha dois trajetos que o levam para o mesmo lugar. Parece um mapa do tesouro.
-Acho que vou para essa aventura, você vem comigo?
-</P>
-    </div>
-   </main> 
 
+<body>
+    <main>
+        <div class="passo" id="0">
+            <P>Numa noite qualquer, você acorda com um barulho estranho vindo do porão. Descobre lá uma máquina antiga
+                coberta de poeira e uma anotação:
+                "Quem ligar esta máquina, viajará pelos sonhos esquecidos da humanidade."
+                <button class="btn-proximo" data-proximo="1">Ligar a máquina sem pensar duas vezes</button>
+                <button class="btn-proximo" data-proximo="2">Chamar alguém para ver junto</button>
+        </div>
+        <div class="passo" id="1">
+            <P>Assim começa sua aventura! Preste muita atenção uma escolha errada, pode levar tudo por água abaixo
+                <button class="btn-proximo" data-proximo="3">Como você está sozinho, vai ficar difícil carregar tanta
+                    coisa. Então vai ter que deixar algumas coisas de lado</button>
+                <button class="btn-proximo" data-proximo="4">desistir</button>
+        </div>
+    </main>
 
 
 </body>
+
 </html>
