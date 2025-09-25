@@ -1,4 +1,32 @@
 body{
     background-color:rgb(21, 101, 133);
-    color:aliceblue
+    color:aliceblue;
+font-family: "Macondo", cursive;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin:0;
+}
+
+button{
+    background-color: rgb(227, 59, 87);
+    color:white;
+    font-family: "Macondo", cursive;
+}
+.passo{
+    display: none;
+}
+
+.passo.ativo {
+display: block;
+}
+
+main{
+   text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 80%;
 }
