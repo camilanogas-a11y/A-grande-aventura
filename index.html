@@ -1,74 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A máquina do tempo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
-    <title>A grande aventura</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+<title>A grande aventura</title>
 </head>
-
 <body>
-    <main>
-        <div class="passo ativo" id="passo-0">
-          <img src="cenario-passo0" alt="">
-            <p>Numa noite qualquer, você acorda com um barulho estranho vindo do porão. Descobre lá uma máquina antiga
-                coberta de poeira e uma anotação:
-                "Quem ligar esta máquina, viajará pelos sonhos esquecidos da humanidade."
-                <button class="btn-proximo" data-proximo="1">Ligar a máquina sem pensar duas vezes</button>
-                <button class="btn-proximo" data-proximo="2">Chamar alguém para ver junto</button>
-        </div>
-        <div class="passo" id="passo-1">
-            <p>Assim começa sua aventura! Preste muita atenção uma escolha errada, pode levar tudo por água abaixo
-                <button class="btn-proximo" data-proximo="3">Como você está sozinho, vai ficar difícil carregar tanta
-                    coisa. Então vai ter que deixar algumas coisas de lado</button>
-                <button class="btn-proximo" data-proximo="4">desistir</button>
-        </div>
-       <div class="passo" id="passo-2">
-            <p>Você encontra um castelo e decide entrar nele. Você entra no castelo e encontra duas portas: nessas portas uma possui uma escada brilhante, mas que não para de crescer outra toca uma música suave </p>
-            <button class="btn-proximo" data-proximo="5">Seguir o som de uma música distante</button>
-        </div>
-        <div class="passo" id="passo-3">
-            <P>Você vai encontrar um caminho bem iluminado. Você encontra um coral de estátuas que cantam, elas tinham um mapa mostrando que a próxima pista está na floresta mágica</p>
-            <button class="btn-proximo" data-proximo="7">ir para a floresta magica</button>
-            <button class="btn-proximo" data-proximo="8">Seguir uma escada que não para de crescer</button>
-        </div>
-        <div class="passo" id="passo-4">
-        <p>As escadas não acabavam nunca, então você desiste e volta para casa</p>
-</div>
- <div class="passo" id="passo-5">
-                <p>Chegando na floresta você encontra um lobo.Ele avisa que as proximas pistas só os animais da floresta magica podem dizer </p>
-                <button class="btn-proximo" data-proximo="7">Ir para floresta magica</button>
-        </div>
-          <div class="passo" id="passo-6">
-                <p>Explorando a floresta, você encontra um ratinho, mas ele não falava então você correu atrás dele e acabou entrando em um lugar onde as arvores são fechadas.</p>
-                <button class="btn-proximo" data-proximo="8">Voltar e procurar mais animais</button>
-        </div>
-     <div class="passo" id="passo-7">
-                <p>Na floresta você encontra dois animais diferentes</p>
-                <button class="btn-proximo" data-proximo="9">Conversar com o passarinho</button>
-                <button class="btn-proximo" data-proximo="10">conversar com o jacare</button>
-        </div>
-         <div class="passo" id="passo-8">
-                <p>na volta da mata fechada, você encontra um gato que disse o caminho para a floresta magica onde encontra-se os sonhos perdidos da humanidade</p>
-                <button class="btn-proximo" data-proximo="7">Seguir para a floresta magica</button>
-        </div>
-        <div class="passo" id="passo-9">
-            <p>o passarinho ajudou muito nas dicas, e você chegou na floresta magica onde se encontra o sonhos da humanidade.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar os sonhos</button>
+<main>
+
+    
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0" alt="">
+        <p>
+            No porão da sua casa, você encontra uma máquina estranha coberta de poeira.  
+            Um bilhete diz:  
+            "Quem ligar esta máquina poderá viajar no tempo"
+        </p>
+        <button class="btn-proximo" data-proximo="1">Ligar a máquina</button>
+        <button class="btn-proximo" data-proximo="2">Chamar alguém para ver junto</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>
+            A máquina apita e começa a rodar. Quando você percebe, está no ano 2080.  
+            Os carros voam  
+        </p>
+        <button class="btn-proximo" data-proximo="3">Explorar sozinho</button>
+        <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>
+            Você chama um amigo para ver a máquina. Ele pergunta:  
+            "Tem certeza que isso não e uma geladeira?"  
+            Mesmo assim, vocês decidem ligar juntos
+        </p>
+        <button class="btn-proximo" data-proximo="5">Viajar no tempo com o amigo</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>
+            Sozinho, você encontra um robô que oferece ajuda.  
+            Mas ele só aceita responder se você der uma moeda de R$1.  
+           como não tinha outra opção, você segue um mapa até a Floresta do Tempo.
+        </p>
+        <button class="btn-proximo" data-proximo="7">Ir para a floresta</button>
+        <button class="btn-proximo" data-proximo="8">Subir uma escada que parece não ter fim</button>
+    </div>
+    <div class="passo" id="passo-4">
+       <img src="cenario-passo4.jpg" alt="">
+        <p>
+            Você desiste e volta para casa.  
+            A máquina do tempo acaba virando seu guarda-roupa novo.  
+            A aventura termina aqui
+        </p>
+    </div>
+    <div class="passo" id="passo-5">
+        <p>
+            Vocês chegam num castelo do futuro. Dentro dele, duas portas aparecem:  
+             Uma leva a uma escada que parece não ter fim.  
+             Da outra sai um som suave, como música de rádio antigo.
+        </p>
+        <button class="btn-proximo" data-proximo="6">Seguir a música</button>
+        <button class="btn-proximo" data-proximo="3">Subir a escada</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <p>
+            Seguindo a música, vocês chegam a uma floresta estranha.  
+            Um lobo aparece e diz:  
+           "Aqui, só os animais conhecem os segredos do tempo."
+        </p>
+        <button class="btn-proximo" data-proximo="7">Entrar na floresta</button>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>
+            Na floresta do tempo, dois animais aparecem diante de você:
+        </p>
+        <button class="btn-proximo" data-proximo="9">Conversar com o passarinho</button>
+        <button class="btn-proximo" data-proximo="10">Conversar com o jacaré</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <p>
+            A escada parecia não ter fim. Depois de muito subir,  
+            você encontra um gato que só diz:  
+            "A saída é na floresta do tempo."
+        </p>
+        <button class="btn-proximo" data-proximo="7">Ir para a floresta</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>
+            O passarinho explica, com calma, que os sonhos esquecidos da humanidade  
+            ainda estão guardados na floresta.  
+            Ele te mostra o caminho.
+        </p>
+        <button class="btn-proximo" data-proximo="11">Explorar os sonhos</button>
     </div>
     <div class="passo" id="passo-10">
-        <p> cuidado!! você quase foi atacada.</p>
-        <button class="btn-proximo" data-proximo="12">fugir e falar com o passarinho</button>
-</div>
-<div class="passo" id="passo-11">
-    <p>Dentro da floresta magica está todos os sonhos da humanidade</p>
-</div>
-    </main>
-<script src="script.js"></script>
+        <p>
+            O jacaré tenta te assustar, mas só tropeça na própria cauda.  
+            Melhor deixar ele pra lá e falar com o passarinho.
+        </p>
+        <button class="btn-proximo" data-proximo="9">Falar com o passarinho</button>
+    </div>
+    <div class="passo" id="passo-11">
+       <img src="cenario-passo11.jpg" alt="">
+        <p>
+            Você descobre os sonhos esquecidos da humanidade:  
+            desde gente que queria viajar para o espaço até quem sonhava  
+            em comer pizza todos os dias sem engordar.  
+            A aventura chega ao fim, mas a máquina do tempo continua esperando.
+        </p>
+    </div>
 
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
